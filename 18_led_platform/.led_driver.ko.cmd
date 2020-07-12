@@ -1,0 +1,1 @@
+cmd_/home/denghengli/linux/IMX6ULL/linux_driver/18_led_platform/led_driver.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/denghengli/linux/IMX6ULL/linux_driver/18_led_platform/led_driver.ko /home/denghengli/linux/IMX6ULL/linux_driver/18_led_platform/led_driver.o /home/denghengli/linux/IMX6ULL/linux_driver/18_led_platform/led_driver.mod.o

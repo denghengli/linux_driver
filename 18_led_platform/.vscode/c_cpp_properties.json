@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux/include",
+                "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux/arch/arm/include",
+                "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux/arch/arm/include/generated/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

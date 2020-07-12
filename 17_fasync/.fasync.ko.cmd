@@ -1,0 +1,1 @@
+cmd_/home/denghengli/linux/IMX6ULL/linux_driver/17_fasync/fasync.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/denghengli/linux/IMX6ULL/linux_driver/17_fasync/fasync.ko /home/denghengli/linux/IMX6ULL/linux_driver/17_fasync/fasync.o /home/denghengli/linux/IMX6ULL/linux_driver/17_fasync/fasync.mod.o

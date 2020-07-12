@@ -1,0 +1,1 @@
+cmd_/home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled/newcharled.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled/newcharled.ko /home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled/newcharled.o /home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled/newcharled.mod.o

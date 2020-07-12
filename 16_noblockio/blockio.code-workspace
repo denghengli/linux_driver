@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/14_keyirq"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"uaccess.h": "c"
+		}
+	}
+}

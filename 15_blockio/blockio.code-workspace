@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/14_keyirq"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/16_noblockio"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/17_fasync"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/18_led_platform"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/6_gpioled"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"uaccess.h": "c",
+			"errno.h": "c",
+			"io.h": "c",
+			"base.h": "c"
+		}
+	}
+}

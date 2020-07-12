@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/board_driver/myself/5_ledc_bsp"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/2_led"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/4_dtsof"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"module.h": "c",
+			"aes_glue.h": "c",
+			"sysfs.h": "c",
+			"fs.h": "c",
+			"unistd.h": "c",
+			"init.h": "c"
+		}
+	}
+}

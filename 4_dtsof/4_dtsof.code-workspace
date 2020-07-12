@@ -1,0 +1,63 @@
+{
+	"folders": [
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux/nxptoalpha_linux"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/board_driver/myself/5_ledc_bsp"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/2_led"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/3_newcharled"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/5_dtsled"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/6_gpioled"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/7_beep"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/8_atomic"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/9_spinlock"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/11_key"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/0_gdbtest"
+		},
+		{
+			"path": "/home/denghengli/esp/esp-moonlight"
+		},
+		{
+			"path": "/home/denghengli/esp/esp-idf"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/13_timer"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"module.h": "c",
+			"aes_glue.h": "c",
+			"sysfs.h": "c",
+			"fs.h": "c",
+			"unistd.h": "c",
+			"init.h": "c",
+			"of.h": "c",
+			"sstream": "c",
+			"algorithm": "c",
+			"of_gpio.h": "c"
+		}
+	}
+}

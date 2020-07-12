@@ -134,6 +134,7 @@ static int led_probe(struct platform_device *dev)
 
     printk("led driver probe \r\n");
 
+#if 0
     /*1、找到节点 gpioled，路径是 /gpioled */
     leddriver.nd = of_find_node_by_path("/gpioled");
     if (leddriver.nd == NULL){
@@ -142,7 +143,12 @@ static int led_probe(struct platform_device *dev)
     } else {
         printk("gpioled node has been found!\r\n");
     }
-    
+#endif
+
+    /*1、从platform_device获取设备树节点.
+     驱动与设备匹配成功以后，设备信息就会从设备树节点转为platform_device结构体*/
+    leddriver.nd = dev->dev.of_node;
+
     /*2、获取设备树中的gpio属性，得到LED所使用的gpio编号*/
     leddriver.led_gpio = of_get_named_gpio(leddriver.nd, "led-gpio", 0);
     if (leddriver.led_gpio < 0){

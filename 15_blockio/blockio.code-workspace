@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/6_gpioled"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/19_led_dtsplatform"
 		}
 	],
 	"settings": {

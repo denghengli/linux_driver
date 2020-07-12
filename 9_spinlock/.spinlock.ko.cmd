@@ -1,1 +1,0 @@
-cmd_/home/denghengli/linux/IMX6ULL/linux_driver/9_spinlock/spinlock.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/denghengli/linux/IMX6ULL/linux_driver/9_spinlock/spinlock.ko /home/denghengli/linux/IMX6ULL/linux_driver/9_spinlock/spinlock.o /home/denghengli/linux/IMX6ULL/linux_driver/9_spinlock/spinlock.mod.o

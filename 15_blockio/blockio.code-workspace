@@ -29,6 +29,9 @@
 		},
 		{
 			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/20_miscbeep"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/21_input"
 		}
 	],
 	"settings": {
@@ -36,7 +39,8 @@
 			"uaccess.h": "c",
 			"errno.h": "c",
 			"io.h": "c",
-			"base.h": "c"
+			"base.h": "c",
+			"typeinfo": "c"
 		}
 	}
 }

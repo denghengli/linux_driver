@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/19_led_dtsplatform"
+		},
+		{
+			"path": "/home/denghengli/linux/IMX6ULL/linux_driver/20_miscbeep"
 		}
 	],
 	"settings": {

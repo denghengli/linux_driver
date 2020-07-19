@@ -16,16 +16,7 @@
 #include <asm/mach/map.h>
 #include <asm/uaccess.h>
 #include <asm/io.h>
-/***************************************************************
-Copyright © ALIENTEK Co., Ltd. 1998-2029. All rights reserved.
-文件名		: miscbeep.c
-作者	  	: 左忠凯
-版本	   	: V1.0
-描述	   	: 采用MISC的蜂鸣器驱动程序。
-其他	   	: 无
-论坛 	   	: www.openedv.com
-日志	   	: 初版V1.0 2019/8/20 左忠凯创建
-***************************************************************/
+
 #define MISCBEEP_NAME		"miscbeep"	/* 名字 	*/
 #define MISCBEEP_MINOR		144			/* 子设备号 */
 #define BEEPOFF 			0			/* 关蜂鸣器 */

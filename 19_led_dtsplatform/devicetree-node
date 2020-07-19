@@ -1,0 +1,8 @@
+/*led节点(通过pinctrl子系统和GPIO子系统)*/
+gpioled{
+    compatible = "alientek-gpioled";
+    pinctrl-names = "default";
+    pinctrl-0 = <&pinctrl_gpio_leds>;/*pinctrl子系统*/
+    led-gpio = <&gpio1 3 GPIO_ACTIVE_LOW>;/*GPIO子系统*/ 
+    status = "okay";
+};

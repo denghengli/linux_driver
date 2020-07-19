@@ -22,16 +22,7 @@
 #include <linux/ide.h> 
 #include <linux/poll.h> 
 
-/***************************************************************
-Copyright © ALIENTEK Co., Ltd. 1998-2029. All rights reserved.
-文件名		: key.c
-作者	  	: 左忠凯
-版本	   	: V1.0
-描述	   	: Linux按键输入驱动实验
-其他	   	: 无
-论坛 	   	: www.openedv.com
-日志	   	: 初版V1.0 2019/7/18 左忠凯创建
-***************************************************************/
+
 #define KEY_CNT			1		/* 设备号个数 	*/
 #define KEY_NAME		"keyirq"	/* 名字 		*/
 

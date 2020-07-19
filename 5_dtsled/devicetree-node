@@ -1,0 +1,12 @@
+/*led节点(没有通过pinctrl子系统和GPIO子系统)*/
+alphaled{
+    #address-cells = <1>;
+    #size-cells = <1>;
+    compatible = "alientek-dtsled";
+    status = "okay";
+    reg = <0X020C406C 0x04		/*CCM_CCGR1_BASE*/
+            0X020E0068 0x04		/*SW_MUX_GPIO1_IO03_BASE*/
+            0X020E02F4 0x04		/*SW_PAD_GPIO1_IO03_BASE*/
+            0X0209C000 0x04		/*GPIO1_DR_BASE*/
+            0X0209C004 0x04>;	/*GPIO1_GDIR_BASE*/
+};

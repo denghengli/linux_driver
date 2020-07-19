@@ -1,0 +1,10 @@
+/*key节点(通过pinctrl子系统和GPIO子系统)*/
+key{
+    compatible = "alientek-key";
+    pinctrl-names = "default";
+    pinctrl-0 = <&pinctrl_gpio_keys>;/*pinctrl子系统*/
+    key-gpio = <&gpio1 18 GPIO_ACTIVE_LOW>;/*GPIO子系统*/ 
+    interrupt-parent = <&gpio1>;
+    interrupts = <18 IRQ_TYPE_EDGE_BOTH>;
+    status = "okay";
+};
